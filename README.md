@@ -16,6 +16,8 @@ Web Metamask Sweeper Bot is a web-based application that automates the process o
 
 - A web server to serve the HTML file.
 
+## Web Site - https://0xtarit.github.io/web-metamask-sweeper-bot/index.html
+
 ## 1. Installation
 
 1. **Clone the repository:**
@@ -63,7 +65,7 @@ Web Metamask Sweeper Bot is a web-based application that automates the process o
 ## URL Parameters
 You can set bot parameters dynamically via URL query parameters. For example:
 
-```http://localhost:5500/index.html?network_rpc_url=YOUR_RPC_URL&target_wallet_private_key=YOUR_PRIVATE_KEY&recipient_address=YOUR_RECIPIENT_ADDRESS&your_telegram_user_id=YOUR_TELEGRAM_USER_ID&your_telegram_bot_token=YOUR_TELEGRAM_BOT_TOKEN&network_name=YOUR_NETWORK_NAME&extra_gas_fee=EXTRA_GAS_FEE&extra_gas_limit=EXTRA_GAS_LIMIT```
+```https://0xtarit.github.io/web-metamask-sweeper-bot/index.html?network_rpc_url=YOUR_RPC_URL&target_wallet_private_key=YOUR_PRIVATE_KEY&recipient_address=YOUR_RECIPIENT_ADDRESS&your_telegram_user_id=YOUR_TELEGRAM_USER_ID&your_telegram_bot_token=YOUR_TELEGRAM_BOT_TOKEN&network_name=YOUR_NETWORK_NAME&extra_gas_fee=EXTRA_GAS_FEE&extra_gas_limit=EXTRA_GAS_LIMIT```
 
 <br>
 If all parameters are present in the URL, you will be prompted to start the bot automatically.
