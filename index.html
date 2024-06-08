@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metamask Sweeper Bot</title>
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="shortcut icon" href="assets/image/image/logo.png" type="image/x-icon">
+</head>
+<body>
+
+    <h1 class="page_title">Metamask Sweeper Bot</h1>
+
+    <div class="terminal-container">
+        <div class="terminal-header">
+            <div class="traffic-lights">
+                <span class="close"></span>
+                <span class="minimize"></span>
+                <span class="maximize"></span>
+            </div>
+            <div class="title">Terminal</div>
+        </div>
+        <div class="terminal-body">
+            <div class="terminal-output" id="terminal-output">
+            </div>
+            <div class="terminal-input">
+                <span class="prompt">sweeperbot@terminal:~$</span>
+                <input type="text" id="terminal-input" autofocus>
+            </div>
+        </div>
+    </div>
+    <div class="buttons-container">
+        <button class="btn settings-btn" id="settings-btn">
+            <img src="assets/image/svg/setting.svg" alt="Settings" class="settings-icon">Bot Settings
+        </button>
+        <div>
+            <button class="btn" id="start-btn">Start</button>
+            <button class="btn" id="stop-btn">Stop</button> 
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="settings-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" id="close-modal">&times;</span>
+            <h2>Bot Settings</h2>
+            <form id="settings-form">
+                <label for="network_rpc_url">RPC URL:</label>
+                <input type="text" id="network_rpc_url" placeholder="Enter Your Network RPC url" name="network_rpc_url">
+                
+                <label for="target_wallet_private_key">Target Wallet Private Key:</label>
+                <input type="text" id="target_wallet_private_key" placeholder="Target Wallet Private Key" name="target_wallet_private_key">
+                
+                <label for="recipient_address">Recipient Wallet Address:</label>
+                <input type="text" id="recipient_address" placeholder="Burning Funds Recipient Wallet Address" name="recipient_address">
+                
+                <label for="telegram_user_id">Telegram User ID:</label>
+                <input type="text" id="your_telegram_user_id" placeholder="Your Telegram Id" name="your_telegram_user_id">
+                
+                <label for="your_telegram_bot_token">Telegram Bot Token:</label>
+                <input type="text" id="your_telegram_bot_token" placeholder="Your Telegram Bot Token" name="your_telegram_bot_token">
+                
+                <label for="network_name">Network Name:</label>
+                <input type="text" id="network_name" placeholder="Your Blockchain Network Name. Ex- Eth, Bsc, Polygon etc..." name="network_name">
+                
+                <h3>Optional Parameters:</h3>
+                <label for="extra_gas_fee">Extra Gas Fee:</label>
+                <input type="number" id="extra_gas_fee" value="1" placeholder="Extra Gas Fee In Gwei" name="extra_gas_fee">
+                
+                <label for="extra_gas_limit">Extra Gas Limit:</label>
+                <input type="number" id="extra_gas_limit" value="1" placeholder="Extra Gas Limit" name="extra_gas_limit">
+                
+                <button type="button" class="btn save-btn" id="save-btn">Save</button>
+
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
+
+<script src="src/ethers.min.js"></script>
+<script src="assets/js/bot.js"></script>
